@@ -18,7 +18,7 @@ export default function Card({result}) {
       }}
 
         placeholder="blur"
-        blurDataURL="loading.svg"
+        blurDataURL="./public/loading.svg"
         alt="loading..."></Image>
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
